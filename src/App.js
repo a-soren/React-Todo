@@ -4,7 +4,6 @@ import TodoList from './components/TodoComponents/TodoList.js';
 
 
 
-
 const todo=[
   {
     task:'Organize Garage',

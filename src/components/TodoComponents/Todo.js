@@ -1,9 +1,10 @@
 import React from 'react';
 
+
 const Task=props=>{
     return(
         <div
-        className={`task${props.task.completed ? ' Completed':''}`}
+        className={`task ${props.task.completed ? ' Completed':''}`}
         onClick={()=>{
             props.toggleToDo(props.task.id);
         }}
